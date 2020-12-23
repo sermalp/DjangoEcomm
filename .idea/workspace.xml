@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shop/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainapp/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Мои заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Мои заметки.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop/mainapp/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\p\DjangoEcomm\shop\mainapp\templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.models">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -109,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608722631785</updated>
-      <workItem from="1608722634170" duration="31820000" />
+      <workItem from="1608722634170" duration="35088000" />
     </task>
     <servers />
   </component>
