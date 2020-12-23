@@ -1,13 +1,37 @@
+from django import forms
 from django.contrib import admin
-
-# Register your models here.
-
-# Регистрация модулей в админке
 from.models import *
 
+
+class NotebookCategoryChoiceField(forms.ModelChoiceField):
+    pass
+
+
+class NotebookAdmin(admin.ModelAdmin):
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'category':
+            return NotebookCategoryChoiceField(Category.objects.filter(slug='notebooks'))
+        return super().formfield_for_foreignkey(db_field,request, **kwargs)
+
+
+class SmartphoneCategoryChoiceField(forms.ModelChoiceField):
+    pass
+
+
+class SmartphoneAdmin(admin.ModelAdmin):
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'category':
+            return NotebookCategoryChoiceField(Category.objects.filter(slug='smartphones'))
+        return super().formfield_for_foreignkey(db_field,request, **kwargs)
+
+# Регистрация модулей в админке
 admin.site.register(Category)
-admin.site.register(Notebook)
-admin.site.register(Smartphone)
+admin.site.register(Notebook, NotebookAdmin)
+admin.site.register(Smartphone, SmartphoneAdmin)
 admin.site.register(CardProduct)
 admin.site.register(Cart)
 admin.site.register(Customer)
+
+
