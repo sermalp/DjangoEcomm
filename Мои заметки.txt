@@ -22,3 +22,6 @@ C:\p\DjangoEcomm\shop>python manage.py createsuperuser
 запуск вебсервера в папке проекта
 C:\p\DjangoEcomm\shop>python manage.py runserver
 
+
+При миграции моделей потребовала установить
+python -m pip install Pillow
