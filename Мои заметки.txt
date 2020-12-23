@@ -1,0 +1,24 @@
+﻿провера версии устанвленной джанги
+C:\p\DjangoEcomm>python -m django --version
+
+старт пнового проекта в каталоге
+C:\p\DjangoEcomm>django-admin startproject shop
+
+переходим в папку прокета
+C:\p\DjangoEcomm>cd shop
+
+старт нового приложения
+C:\p\DjangoEcomm\shop>python manage.py startapp mainapp
+
+создание миграций
+C:\p\DjangoEcomm\shop>python manage.py makemigrations
+
+перенос миграция в БД
+C:\p\DjangoEcomm\shop>python manage.py migrate
+
+создание суперпользователя
+C:\p\DjangoEcomm\shop>python manage.py createsuperuser
+
+запуск вебсервера в папке проекта
+C:\p\DjangoEcomm\shop>python manage.py runserver
+
