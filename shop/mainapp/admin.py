@@ -9,8 +9,12 @@ class NotebookAdminForm(ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['image'].help_text = mark_safe('<span style="color:red; font-size:14px">Минимальное разрешение изображения {}х{}</span>').format(
-            *Product.MIN_RESOLUTION
+        self.fields['image'].help_text = mark_safe(
+            """<span style="color:red; font-size:14px">Минимальное разрешение изображения {}х{}.<br>
+            Максимальное разрешение изображения {}х{}, если больше будет обрезано.
+            </span>
+            """).format(
+            *Product.MIN_RESOLUTION, *Product.MAX_RESOLUTION
         )
 
     def clean_image(self):

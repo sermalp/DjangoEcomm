@@ -1,8 +1,11 @@
+import sys
 from PIL import Image
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
+from django.core.files.uploadedfile import InMemoryUploadedFile
+from io import BytesIO
 
 
 User = get_user_model()
@@ -63,7 +66,7 @@ class Category(models.Model):
 
 class Product(models.Model):
 
-    MIN_RESOLUTION = (300, 300)
+    MIN_RESOLUTION = (200, 200)
     MAX_RESOLUTION = (800, 800)
     MAX_IMAGE_SIZE = 3145728
 
@@ -81,6 +84,7 @@ class Product(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
+        # пример с проверкой минимального и максимального разрешения
         image = self.image
         img = Image.open(image)
         min_height, min_width = self.MIN_RESOLUTION
@@ -89,7 +93,24 @@ class Product(models.Model):
             raise MinResolutinErrorException('Разрешение изображения меньше минимального')
         if img.height > max_height or img.width > max_width:
             raise MaxResolutinErrorException('Разрешение изображения больше максимального')
-        return image
+
+
+        # # пример с обрезкой изображения до нужного разрешения
+        # image = self.image
+        # img = Image.open(image)
+        # max_height, max_width = self.MAX_RESOLUTION
+        # if img.height > max_height or img.width > max_width:
+        #     new_img = img.convert('RGB')
+        #     #print(, self.MAX_RESOLUTION)
+        #     resized_new_img = new_img.resize((200, 200), Image.ANTIALIAS)
+        #     filestream = BytesIO()
+        #     resized_new_img.save(filestream, 'JPEG', quality=80)
+        #     filestream.seek(0)
+        #     name = '{}.{}'.format(*self.image.name.split('.'))
+        #     self.image = InMemoryUploadedFile(
+        #         filestream, 'ImageField', name, 'jpeg/image', sys.getsizeof(filestream), None
+        #     )
+        super().save(*args, **kwargs)
 
 
 class Notebook(Product):
