@@ -41,7 +41,32 @@ class Product(models.Model):
     def __str__(self):
         return self.title
 
+class Notebook(Product):
 
+    diagonal = models.CharField(max_length=255, verbose_name='Диагональ')
+    display_type = models.CharField(max_length=255, verbose_name='Тип дисплея')
+    processor_freg = models.CharField(max_length=255, verbose_name='Частота процессора')
+    ram = models.CharField(max_length=255, verbose_name='Оперативная память')
+    video = models.CharField(max_length=255, verbose_name='Видеокарта')
+    time_without_charge = models.CharField(max_length=255, verbose_name='Время работы аккумулятора')
+
+    def __str__(self):
+        return "{} : {}".format(self.category.name, self.title)
+
+class Smartphone(Product):
+
+    diagonal = models.CharField(max_length=255, verbose_name='Диагональ')
+    display_type = models.CharField(max_length=255, verbose_name='Тип дисплея')
+    resolution = models.CharField(max_length=255, verbose_name='Разрешение экрана')
+    accum_volume = models.CharField(max_length=255, verbose_name='Объем батареи')
+    ram = models.CharField(max_length=255, verbose_name='Оперативная память')
+    sd = models.BooleanField(default=True, verbose_name='Расширяемая память')
+    sd_volume = models.CharField(max_length=255, verbose_name='Максимальный объем расширяемой память')
+    main_can_up = models.CharField(max_length=255, verbose_name='Главная камера')
+    frontal_can_up = models.CharField(max_length=255, verbose_name='Фронтальная камера')
+
+    def __str__(self):
+        return "{} : {}".format(self.category.name, self.title)
 
 class CardProduct(models.Model):
 
