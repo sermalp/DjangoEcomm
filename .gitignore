@@ -4,3 +4,8 @@
 shop/db.sqlite3
 shop/mainapp/__pycache__/models.cpython-38.pyc
 shop/shop/__pycache__/settings.cpython-38.pyc
+.idea/workspace.xml
+shop/mainapp/__pycache__/urls.cpython-38.pyc
+shop/mainapp/__pycache__/views.cpython-38.pyc
+.idea/workspace.xml
+shop/mainapp/__pycache__/urls.cpython-38.pyc

@@ -25,3 +25,11 @@ C:\p\DjangoEcomm\shop>python manage.py runserver
 
 При миграции моделей потребовала установить
 python -m pip install Pillow
+
+
+
+ссылка на шаблон
+https://startbootstrap.github.io/startbootstrap-shop-homepage/
+
+ссылка на подключение - css и javascrip
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
