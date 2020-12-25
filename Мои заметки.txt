@@ -35,7 +35,7 @@ https://startbootstrap.github.io/startbootstrap-shop-homepage/
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 
-Штука для чтения логов, вставляетсяч в код
+Штука для чтения логов, вставляется в код
 print('##+', kwargs, '-##')
 
 
