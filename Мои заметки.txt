@@ -1,4 +1,9 @@
-﻿провера версии устанвленной джанги
+﻿
+******************************************************
+************************Django************************
+******************************************************
+
+провера версии устанвленной джанги
 C:\p\DjangoEcomm>python -m django --version
 
 старт пнового проекта в каталоге
@@ -27,6 +32,11 @@ C:\p\DjangoEcomm\shop>python manage.py runserver
 python -m pip install Pillow
 
 
+******************************************************
+************************bootstrap*********************
+******************************************************
+
+Надо учить bootstrap!
 
 ссылка на шаблон
 https://startbootstrap.github.io/startbootstrap-shop-homepage/
@@ -34,12 +44,16 @@ https://startbootstrap.github.io/startbootstrap-shop-homepage/
 ссылка на подключение - css и javascrip
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
+Хлебные крошки:
+https://getbootstrap.com/docs/4.0/components/breadcrumb/
+
+
+******************************************************
+************************python************************
+******************************************************
 
 Штука для чтения логов, вставляется в код
 print('##+', kwargs, '-##')
-
-
-Надо учить bootstrap!
 
 
 Шпаргалки по python - https://cheatography.com/tag/python/
@@ -69,3 +83,6 @@ print('##+', kwargs, '-##')
 Уроки python - https://ru.hexlet.io/courses/python_101
 
 
+Горячие клавиши PyCharm:
+Ctlr+O
+Ctrl+I
