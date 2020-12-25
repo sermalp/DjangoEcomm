@@ -1,8 +1,16 @@
-﻿https://www.youtube.com/watch?v=jME4-T_hfhQ
+﻿Репозитарий сайта:
+https://gitlab.com/PyCoding1/django3-ecommerce
+
+
+Видеокурс
+https://www.youtube.com/watch?v=jME4-T_hfhQ
+
 
 Плейлист:
 https://www.youtube.com/playlist?list...
 
+
+Содержание:
 Создание проекта и миграций: (0:00)
 Создание моделей приложения: (5:16)
 Применение миграций и related_name: (22:41)
