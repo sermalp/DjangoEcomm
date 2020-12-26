@@ -37,6 +37,7 @@ python -m pip install Pillow
 ******************************************************
 
 Надо учить bootstrap!
+начать с этого - https://www.youtube.com/results?search_query=bootstrap+%D0%B7%D0%B0+%D1%87%D0%B0%D1%81
 
 ссылка на шаблон
 https://startbootstrap.github.io/startbootstrap-shop-homepage/
