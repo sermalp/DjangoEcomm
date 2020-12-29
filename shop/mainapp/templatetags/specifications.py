@@ -52,7 +52,6 @@ def get_product_spec(product, module_name):
     print('+++')
     for name, value in PRODUCT_SPEC[module_name].items():
         sTab = TABLE_CONTENT.format(name=name, value=getattr(product, value))
-        print('##+', sTab, '-##')
         table_content += sTab
     return table_content
 

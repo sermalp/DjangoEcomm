@@ -165,7 +165,7 @@ class CardProduct(models.Model):
 
 
     def __str__(self):
-        return "Продукт: {} (для корзины)".format(self.product.title)
+        return "Продукт: {} (для корзины)".format(self.content_object.title)
 
 
 class Cart(models.Model):
@@ -174,6 +174,8 @@ class Cart(models.Model):
     products = models.ManyToManyField(CardProduct, blank=True, related_name='related_card')
     total_products = models.PositiveIntegerField(default=0)
     final_price = models.DecimalField(verbose_name='Общая цена', max_digits=9, decimal_places=2)
+    in_order = models.BooleanField(default=False)
+    for_anonymous_user = models.BooleanField(default=False)
 
     def __str__(self):
         return str(self.id)
