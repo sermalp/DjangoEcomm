@@ -140,8 +140,9 @@ class Smartphone(Product):
     resolution = models.CharField(max_length=255, verbose_name='Разрешение экрана')
     accum_volume = models.CharField(max_length=255, verbose_name='Объем батареи')
     ram = models.CharField(max_length=255, verbose_name='Оперативная память')
-    sd = models.BooleanField(default=True, verbose_name='Расширяемая память')
-    sd_volume = models.CharField(max_length=255, verbose_name='Максимальный объем расширяемой память')
+    sd = models.BooleanField(default=True, verbose_name='Наличие SD-карты')
+    sd_volume_max = models.CharField(max_length=255, null=True, blank=True,
+                                     verbose_name='Максимальный объем расширяемой память')
     main_can_up = models.CharField(max_length=255, verbose_name='Главная камера')
     frontal_can_up = models.CharField(max_length=255, verbose_name='Фронтальная камера')
 
@@ -150,6 +151,12 @@ class Smartphone(Product):
 
     def get_absolute_url(self):
         return get_product_url(self, 'product_detail')
+
+    # @property
+    # def sd(self):
+    #     if self.sd:
+    #         return 'Да'
+    #     return 'Нет'
 
 
 class CardProduct(models.Model):
