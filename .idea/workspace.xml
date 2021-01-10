@@ -7,9 +7,6 @@
     <list default="true" id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/mainapp/templatetags/specifications.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/templatetags/specifications.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,8 @@
       <workItem from="1608929722598" duration="4660000" />
       <workItem from="1609018903519" duration="184000" />
       <workItem from="1609019139847" duration="9952000" />
-      <workItem from="1609712085198" duration="8192000" />
+      <workItem from="1609712085198" duration="10374000" />
+      <workItem from="1610175232751" duration="1248000" />
     </task>
     <servers />
   </component>
