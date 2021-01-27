@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Мои заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Мои заметки.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="" />
@@ -118,11 +120,12 @@
       <workItem from="1609019139847" duration="9952000" />
       <workItem from="1609712085198" duration="10374000" />
       <workItem from="1610175232751" duration="1248000" />
+      <workItem from="1611780824409" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
