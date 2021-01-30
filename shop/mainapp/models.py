@@ -21,6 +21,8 @@ User = get_user_model()
 # 6 Customer - Покупатель
 # 7 Specification - Характеристики товаров
 
+def get_models_for_count(*model_names):
+    return [models.Count(model_name) for model_name in model_names]
 
 def get_product_url(obj, viewname):
     ct_model = obj.__class__._meta.model_name
@@ -58,13 +60,34 @@ class LatestProductsManager:
 
 class LatestProducts:
 
-    objects = None
+    objects = LatestProductsManager()
+
+class CategoryManager(models.Manager):
+    #для подсчета количество товароы в нутрии катеогрии:
+    #   подсчитывается только для категорий для которых сделана отдельная модель.
+
+    CATEGORY_NAME_COUNT_NAME = {
+        'Ноутбуки': 'notebook__count',
+        'Смартфоны': 'smartphone__count',
+        'Доска террасная': 'smartphone__count'
+    }
+
+    def get_dueryset(self):
+        return super().get_queryset()
+
+    def get_categories_for_left_sidebar(self):
+        models = get_models_for_count('notebook', 'smartphone')
+        #models = get_models_for_count('notebook', 'smartphone', 'doskaterra')
+        qs = list(self.get_queryset().annotate(*models).values())
+        print('##+', qs, '-##')
+        return [dict(name=c['name'], slug=c['slug'], count=c[self.CATEGORY_NAME_COUNT_NAME[c['name']]]) for c in qs]
 
 
 class Category(models.Model):
 
     name = models.CharField(max_length=255, verbose_name='Имя категории')
     slug = models.SlugField(unique=True)
+    objects = CategoryManager()
 
     def __str__(self):
         return self.name

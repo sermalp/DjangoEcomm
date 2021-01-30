@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoEcomm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoEcomm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/mainapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <workItem from="1611780824409" duration="540000" />
       <workItem from="1611891744929" duration="4287000" />
       <workItem from="1611896151663" duration="1590000" />
-      <workItem from="1611990874501" duration="1638000" />
+      <workItem from="1611990874501" duration="5427000" />
     </task>
     <servers />
   </component>
