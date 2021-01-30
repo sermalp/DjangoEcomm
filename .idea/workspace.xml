@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51770270-5886-40e8-8130-44c2b8939b56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Мои заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Мои заметки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoEcomm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoEcomm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/shop/mainapp/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -121,6 +124,9 @@
       <workItem from="1609712085198" duration="10374000" />
       <workItem from="1610175232751" duration="1248000" />
       <workItem from="1611780824409" duration="540000" />
+      <workItem from="1611891744929" duration="4287000" />
+      <workItem from="1611896151663" duration="1590000" />
+      <workItem from="1611990874501" duration="1638000" />
     </task>
     <servers />
   </component>
@@ -138,6 +144,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="247" y="190" width="1000" height="583" key="#Notifications" timestamp="1611891827792">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="247" y="190" width="1000" height="583" key="#Notifications/-1366.0.1366.728/0.0.2048.1112@0.0.2048.1112" timestamp="1611891827792" />
+    <state x="395" y="264" width="830" height="584" key="#Python" timestamp="1611893303489">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="395" y="264" width="830" height="584" key="#Python/-1366.0.1366.728/0.0.2048.1112@0.0.2048.1112" timestamp="1611893303489" />
+    <state x="534" y="257" key="FileChooserDialogImpl" timestamp="1611893952851">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="534" y="257" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.2048.1112@0.0.2048.1112" timestamp="1611893952851" />
+    <state x="218" y="153" key="SettingsEditor" timestamp="1611895241773">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="218" y="153" key="SettingsEditor/-1366.0.1366.728/0.0.2048.1112@0.0.2048.1112" timestamp="1611895241773" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
